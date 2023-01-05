@@ -19,7 +19,8 @@ const Head: FC = () => {
                 <meta name="aria_config_locator_hub" content={hubname} />
                 <meta name="aria_config_locator_env" content={env} />
                 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-                <title>Amplience Retail Storefront Website</title>
+                {/* <title>Amplience Retail Storefront Website</title> */}
+                <title> + Frontier Agriculture</title>
             </NextHead>
         </>
     )

@@ -23,7 +23,7 @@ const styles = (theme: Theme) => ({
         paddingLeft: 20,
         paddingRight: 20,
         color: "#fff",
-        backgroundColor: "#000",
+        backgroundColor: "#00615d", // static default
         borderRadius: 3,
         "&:hover": {
             backgroundColor: "#000" 
