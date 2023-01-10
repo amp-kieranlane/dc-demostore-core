@@ -73,6 +73,7 @@ const ComponentMapping: any = {
     'https://demostore.amplience.com/content/theme-wrapper'          : ThemeWrapper,
     'https://demostore.amplience.com/content/video'                  : Video,
     'https://demostore.amplience.com/content/product'                : ProductContent,
+    'https://demostore.amplience.com/content/faq'                    : Faqs,
     'https://demostore.amplience.com/site/palette'                   : ThemePaletteSpec,
     'https://demostore.amplience.com/site/typography'                : ThemeTypographySpec,
     'https://demostore.amplience.com/slots/banner'                   : BannerSlot,
