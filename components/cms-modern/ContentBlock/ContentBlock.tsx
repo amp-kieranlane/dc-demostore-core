@@ -35,6 +35,7 @@ import ThemePaletteSpec         from '@components/cms-modern/ThemePaletteSpec';
 import ThemeTypographySpec      from '@components/cms-modern/ThemeTypographySpec';
 import ThemeWrapper             from '@components/cms-modern/ThemeWrapper';
 import Video                    from '@components/cms-modern/Video';
+import Faqs                     from '@components/cms-modern/Faqs';
 
 import { useRouter } from 'next/router';
 
@@ -80,7 +81,7 @@ const ComponentMapping: any = {
     'https://demostore.amplience.com/slots/landing-page'             : BannerSlot,
     'https://demostore.amplience.com/slots/localized-banner'         : LocalizedBannerSlot,
     'https://demostore.amplience.com/slots/personalized-banner'      : PersonalizedBannerSlot
-    
+
 };
 
 const ContentBlock: FC<Props> = ({content: originalContent, type = 'CONTENT', components = ComponentMapping}) => {
@@ -98,7 +99,7 @@ const ContentBlock: FC<Props> = ({content: originalContent, type = 'CONTENT', co
     const content = liveContent;
     const Component = components[content._meta.schema];
     const children = Component ? <Component {...content} /> : <>{JSON.stringify(content)}</>;
-    
+
     const wrappedChildren = (
         type === 'SLOT' ? (
             <CmsSlot key={ nanoid() } content={content}>
