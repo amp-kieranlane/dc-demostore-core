@@ -1,6 +1,6 @@
 [![Amplience Dynamic Content](media/header.png)](https://amplience.com/dynamic-content)
 
-UPDATE TEST
+BUMP FOR VERCEL BUILD
 
 # Amplience Demo Store Core Package
 
