@@ -7,14 +7,14 @@
   flex-wrap: none;
   list-style: none;
   border: 0;
-  border-left: 1px solid $textColor;
+  //border-left: 1px solid $textColor;
   position: relative;
   display: block;
   &__icon {
     position: absolute;
     right: 15px;
     width: 14px;
-    fill: #999;
+    fill: #fff;
     top: 4px;
   }
   &__input {
@@ -28,7 +28,7 @@
     color: white;
   }
   &__input::placeholder {
-    color: #999;
+    color: #fff;
   }
   &__input:focus {
     background-color: white;

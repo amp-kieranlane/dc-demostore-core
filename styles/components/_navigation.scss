@@ -4,15 +4,15 @@
     }
     display: flex;
     height: 30px;
-    background-color: $primaryGrey;
+    background-color: #f93;
     z-index: 1200;
     &__list {
         margin: 0 auto;
         display: flex;
         padding: 0;
         flex-wrap: none;
-        border-left: 1px solid $textColor;
-        border-right: 1px solid $textColor;
+        //border-left: 1px solid $textColor;
+        //border-right: 1px solid $textColor;
         list-style: none;
         &__item {
             height: 100%;
@@ -72,9 +72,10 @@
                 &--search{
                     order: 1;
                     .search {
-                        border-left: none;
+                        border-left: none !important;
                         display: flex;
                         align-items: center;
+                        color: #f93;
                         &__icon {
                             top: 13px
                         }
@@ -153,7 +154,7 @@
     .navigation__list__item {
         &:hover {
             & > a {
-                color: $white;
+                color: #f93;
             }
         }
     }
@@ -165,7 +166,7 @@
     .navigation__list__item {
         &:hover {
             & > a {
-                color: $primaryGrey;
+                color: #f93;
                 background-color: $white;
             }
             & > div {

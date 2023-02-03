@@ -31,8 +31,9 @@
         margin: 0 auto;
         justify-content: center;
         img {
-          height: 38px;
-          width: 210px;
+          height: 175px;
+          width: 232px;
+          margin-top: -69px;
         }
     }
     &__customLogo {
@@ -51,7 +52,7 @@
       span {
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 12px;
-        color: #fff;
+          color: #f93;
         border-bottom: 1px dotted #fff;
       }
     }
@@ -65,6 +66,7 @@
         color: black;
         text-align: right;
         padding-top: 10px;
+        filter: invert(66%) sepia(42%) saturate(870%) hue-rotate(334deg) brightness(133%) contrast(102%)
     }
     &__account-option-icon {
       &:not(:first-child) {
@@ -104,11 +106,16 @@
         }
         &__currency-selector {
           display: none !important;
+
+          span{
+            color: #f93;
+          }
+          
         }
         &__logo {
           height: 20px;
           img {
-            height: 20px;
+            height: 160px;
             width: 122px;
           }
         }

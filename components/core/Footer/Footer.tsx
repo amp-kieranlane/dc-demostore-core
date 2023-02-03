@@ -112,7 +112,7 @@ const [linkCategories, setLinkCategories] = useState([
             <section className="footer__signup">
               <Typography variant="subtitle1" component="h4">Stay in touch</Typography>
               <div className="footer__signup-input-wrap">
-                <input type="text" placeholder={props.newsletterPlaceholderText || "Sign up for Frontier Agriculture news..."}/>
+                <input type="text" placeholder={props.newsletterPlaceholderText || "Sign up for Renishaw news..."}/>
                 <img src="/images/ic-email.svg" alt="email" />
               </div>
             </section>
@@ -124,7 +124,7 @@ const [linkCategories, setLinkCategories] = useState([
 
             </section>
             <section className="footer__watermark">
-              <Typography variant="h6" component="h6">{props.copyrightNoticeText || "Copyright 2022 Frontier Agriculture"}</Typography>
+              <Typography variant="h6" component="h6">{props.copyrightNoticeText || "Copyright 2022 Renishaw"}</Typography>
             </section>
         </footer>
     );

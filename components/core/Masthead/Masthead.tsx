@@ -103,7 +103,7 @@ const Masthead: FC<Props> = ({ children, variant = 'default', logo, navigationBa
             <section className="af-banner-top">
                 { locale === "de-DE" ? 'Profitieren Sie von 10% Rabatt auf Ihren ersten Einkauf mit dem Code FIRST10 an der Kasse - es gelten die AGB'
                     // : 'Enjoy 10% off your first purchase using code FIRST10 at checkout - T&Cs apply' }
-                    : 'Frontier pilot scheme sees supply chains reward growers for sustainable farming practices' }
+                    : 'Renishaw’s innovative solutions help companies across a range of global industries.' }
             </section>
             <section className="af-banner">
               <section className="af-banner__currency-selector">
@@ -119,20 +119,14 @@ const Masthead: FC<Props> = ({ children, variant = 'default', logo, navigationBa
                                 logo ? (
                                     <img alt="" src={getImageURL(logo, { format: ImageFormat.PNG })} />
                                 ) : (
-                                    <img alt="" src="/images/AnyaFinn-Logo.svg" />
+                                    <img alt="" src="/images/renishaw-logo-vector.svg" />
                                 )
                             }
                         </a>
                     </Link>
                 </div>
                 <div className="af-banner__account-options">
-                    <span>
-                        <a href="#" className="af-banner__account-option-icon af-banner__account-option-icon--locator">
-                            <Link href="/store" passHref>
-                                    <img src="/images/store-dark.svg" alt="store" />
-                            </Link>
-                        </a>
-                    </span>
+
                     <a href="#" className="af-banner__account-option-icon af-banner__account-option-icon--locator" onClick={handleShowLocaleModal}>
                         {/* <img src="https://dcdemo.a.bigcontent.io/v1/static/af-locator" alt="locale" /> */}
                         <img src="/images/af-locator-dark.svg" alt="locale" />
