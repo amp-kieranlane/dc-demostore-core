@@ -100,7 +100,7 @@ Once you have installed the `demostore` CLI tool, you can provision your account
 1. Register your instance using the CLI command `env add`
 
 ```sh
-% demostore env add 
+% demostore env add
 ✔ env name: · mydcinstance
 ✔ app deployment url: · https://mydomain.com
 ✔ cms client id: · zzzzzzzz-yyyy-yyyy-yyyy-xxxxxxxxxxxx
