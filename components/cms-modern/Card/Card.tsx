@@ -22,11 +22,12 @@ const styles = (theme: Theme) => ({
     links: { 
         paddingLeft: 20,
         paddingRight: 20,
-        color: "#fff",
-        backgroundColor: "#00615d", // static default
+        color: "#000",
+        backgroundColor: "#fff", // static default
         borderRadius: 3,
         "&:hover": {
-            backgroundColor: "#000" 
+            color: "#000",            // modified for REN
+            backgroundColor: "#f93"   // added for REN
         }
     },
     linkText: {
