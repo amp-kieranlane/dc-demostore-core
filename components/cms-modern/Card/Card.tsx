@@ -23,11 +23,11 @@ const styles = (theme: Theme) => ({
         paddingLeft: 20,
         paddingRight: 20,
         color: "#000",
-        backgroundColor: "#fff", // static default
+        backgroundColor: "#f93", // static default
         borderRadius: 3,
         "&:hover": {
             color: "#000",            // modified for REN
-            backgroundColor: "#f93"   // added for REN
+            backgroundColor: "#000"   // added for REN
         }
     },
     linkText: {
