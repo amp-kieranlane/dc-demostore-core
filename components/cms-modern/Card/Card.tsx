@@ -15,11 +15,11 @@ const styles = (theme: Theme) => ({
     content: {
         padding: 10
     },
-    actions: { 
+    actions: {
         justifyContent: "center",
         paddingBottom: 20
     },
-    links: { 
+    links: {
         paddingLeft: 20,
         paddingRight: 20,
         color: "#fff",
@@ -71,7 +71,7 @@ const Card: React.FC<CardProps> = ({
   return (
     <Grid item xs={12} sm data-testid="Card" className={classes.root}>
       <MuiCard className={classes.container} style={{
-          boxShadow: "none", 
+          boxShadow: "none",
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
