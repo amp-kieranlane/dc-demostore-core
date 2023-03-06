@@ -23,14 +23,17 @@ const styles = (theme: Theme) => ({
         paddingLeft: 20,
         paddingRight: 20,
         color: "#fff",
-        backgroundColor: "#00615d", // static default
+        backgroundColor: "#f93", // static default
         borderRadius: 3,
         "&:hover": {
-            backgroundColor: "#000" 
+            backgroundColor: "#fff"
         }
     },
     linkText: {
-        color: "#fff"
+        color: "#fff",
+        "&:hover": {
+          color: "#f93"
+      }
     }
 });
 

@@ -40,14 +40,19 @@
     padding: 5px 30px !important;
     margin: 0 !important;
     &-dark {
-        background-color: $primaryGrey;
         border-color: #000;
-        color: #fff!important;
+        color:#fff;
+        background-color: #f93;
+        &:hover {
+            color:#f93;
+            background-color: #fff;
+        }
+        
     }
 
     &-light {
         border-color: currentColor;
         color: #000;
-        background-color: #fff;
+        background-color: #f93;
     }
 }
